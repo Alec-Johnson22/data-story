@@ -13,6 +13,9 @@ https://oeo.az.gov/population/census/2020
 Backup Pop Stats - 
 https://oeo.az.gov/sites/default/files/documents/Arizona%20at-a-Glance%20Population%20%26%20Employment%20Trends.pdf
 
+Yavapai Stats -
+https://fred.stlouisfed.org/series/AZYAVA0POP
+
 Fig 1 - 
 https://stock.adobe.com/search?creator_id=202268576&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bfetch_excluded_assets%5D=1&filters%5Binclude_stock_enterprise%5D=1&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&k=arizona&search_page=1&search_type=autosuggest&acp=0&aco=arizona&get_facets=0&asset_id=453753162
 

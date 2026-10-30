@@ -11,7 +11,7 @@
     </header>
     <main>
         <section id="story-frame">
-            <h2>D1 · Population on the Rise</h2>
+            <h2>D1 · Story Frame</h2>
             <p>Arizona is a sprawling state filled with all walks of life. 
                 Arizona's population is on the rise, and this is in large part 
                 thanks to the global Covid19 pandemic. Lower housing prices 
@@ -44,45 +44,76 @@
                     <caption>Replace with an accurate table caption</caption>
                     <thead>
                         <tr>
-                            <th scope="col">Category</th>
-                            <th scope="col">Value A</th>
-                            <th scope="col">Value B</th>
-                            <th scope="col">Value C</th>
+                            <th scope="col">Arizona County</th>
+                            <th scope="col">Total Population 2010<br><em>in millions</em></th>
+                            <th scope="col">Total Population 2020<br><em>in millions</em></th>
+                            <th scope="col">Population as of July 1, 2024<br><em>in millions</em></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">Maricopa</th>
+                            <td>3.8</td>
+                            <td>4.4</td>
+                            <td>4.73</td>
                         </tr>
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">Pima</th>
+                            <td>0.98</td>
+                            <td>1.0</td>
+                            <td>1.09</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pinal</th>
+                            <td>0.38</td>
+                            <td>0.43</td>
+                            <td>0.48</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Yavapai</th>
+                            <td>0.21</td>
+                            <td>0.24</td>
+                            <td>0.25</td>
                         </tr>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row"><strong>Arizona Totals</strong></th>
+                            <td><strong>6.4</strong></td>
+                            <td><strong>7.2</strong></td>
+                            <td><strong>7.6</strong></td>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
-            <p class="source-note">Add the data source and any transformation note.</p>
+            <p class="source-note">Data Provided by Arizona Office of Economic Opportunity.<br>
+            *Not all counties are listed above so AZ total will appear larger than sum of counties listed in table.</p>
         </section>
         <section id="vector-story">
             <h2>D4 · Responsive SVG</h2>
-            <svg class="story-graphic" viewBox="0 0 800 400" role="img" aria-labelledby="graphic-title graphic-desc">
-                <title id="graphic-title">Replace with a concise title</title>
-                <desc id="graphic-desc">Replace with an equivalent description of the meaningful comparison or pattern.</desc>
+            <svg class="story-graphic" viewBox="0 0 800 450" role="img" aria-labelledby="graphic-title graphic-desc">
+                <title id="graphic-title">Population Growth Percentage</title>
+                <desc id="graphic-desc">Two circles, one maroon and smaller, one gold and larger, represent percentage of population growth. The maroon circle shows 11.9% increase over 10 years. The gold circle shows 6% growth over 4 years.</desc>
                 <rect class="graphic-surface" width="800" height="400"/>
-                <circle class="graphic-primary" cx="250" cy="200" r="120"/>
-                <circle class="graphic-accent" cx="560" cy="160" r="150"/>
+                <circle class="graphic-primary" cx="250" cy="200" r="130"/>
+                <circle class="graphic-accent" cx="560" cy="180" r="150"/>
                 <path class="graphic-line" d="M80 350H720"/>
+                <text x="250" y="55" text-anchor="middle" font-family="Arial" font-size="24">2010 to 2020</text>
+                <text x="250" y="375" text-anchor="middle" font-family="Arial" font-size="24">
+                    <tspan x="250" y="375">11.9% increase</tspan>
+                    <tspan x="250" y="395">over 10 years</tspan>
+                </text>
+                <text x="560" y="25" text-anchor="middle" font-family="Arial" font-size="24">2020 to July 2024</text>
+				<text x="560" y="375" text-anchor="middle" font-family="Arial" font-size="24">
+                    <tspan x="560" y="375">6% increase</tspan>
+                    <tspan x="560" y="395">over 4 years</tspan>
+                </text>
             </svg>
         </section>
         <section id="documentation">
             <h2>D5-D6 · System and Documentation</h2>
             <p>Extend Module 1 patterns, then link your sources, asset credits/licenses, test record, transformation notes, and AI disclosure.</p>
         </section>
-        </main>
-    </body>
-    </html>
+    </main>
+</body>
+</html>

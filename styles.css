@@ -64,7 +64,7 @@ figcaption,.source-note{
 }
 table{
     width:100%;
-    min-width:46rem;
+    min-width:100%;
     border-collapse:collapse;
 }
 caption{
@@ -80,13 +80,19 @@ th,td{
 thead{
     background:#f1f1f1;
 }
+tfoot {
+    background: var(--color-muted);
+    color: var(--color-surface);
+}
 .table-region:focus-visible{
     outline:.2rem solid var(--color-accent);
     outline-offset:.2rem;
 }
+
 .graphic-surface{
     fill:#f1f1f1;
 }
+    
 .graphic-primary{
     fill:var(--color-action);
 }
