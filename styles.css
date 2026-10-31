@@ -1,10 +1,27 @@
 :root{
-    --color-text:#404040;
-    --color-surface:#fff;
-    --color-action:#8c1d40;
-    --color-accent:#ffc627;
-    --color-muted:#747474;
-    --color-border:#d0d0d0;
+	/* Raw Color Tokens */
+	--color-dark-gray: #17191d;
+	--color-med-gray: #23262d;
+	--color-off-white: #f4f0e8;
+	--color-orange: #ff6538;
+	--color-dark-orange: #c74424;
+	--color-sage: #a6b0a0;
+	--color-violet: #9b5de5;
+	--color-yellow: #ffd166;
+
+    /* Semantic Color Tokens */
+    --color-text: var(--color-med-gray);
+    --color-surface: var(--color-off-white);
+    --color-action: var(--color-dark-orange);
+    --color-accent: var(--color-yellow);
+    --color-muted: var(--color-sage);
+    --color-border: var(--color-dark-gray);
+    
+    /* Typography Tokens */
+    --font-display: Tahoma, Arial, sans-serif;
+	--font-body: Helvetica, Arial, sans-serif;
+	--font-tag: "Courier New", monospace;
+
     --space-3:1rem;
     --radius-card:.5rem;
     --measure:68ch;
@@ -16,13 +33,14 @@ body{
     margin:0;
     color:var(--color-text);
     background:var(--color-surface);
-    font-family:Arial,sans-serif;
+    font-family: var(--font-body);
     line-height:1.6;
 }
 .story-header{
     padding:clamp(2rem,6vw,5rem);
     background:var(--color-action);
-    color:#fff;
+    color: var(--color-off-white);
+    font-family: var(--font-display);
 }
 .eyebrow{
     color:var(--color-accent);
@@ -58,6 +76,7 @@ img,.story-graphic{
 figcaption,.source-note{
     margin-top:.75rem;
     color:var(--color-muted);
+    font-family: var(--font-tag);
 }
 .table-region{
     overflow-x:auto;
@@ -78,10 +97,11 @@ th,td{
     text-align:left;
 }
 thead{
-    background:#f1f1f1;
+    background: var(--color-muted);
+    color: var(--color-surface);
 }
 tfoot {
-    background: var(--color-muted);
+    background: var(--color-action);
     color: var(--color-surface);
 }
 .table-region:focus-visible{
@@ -90,7 +110,7 @@ tfoot {
 }
 
 .graphic-surface{
-    fill:#f1f1f1;
+    fill: var(--color-surface);
 }
     
 .graphic-primary{
